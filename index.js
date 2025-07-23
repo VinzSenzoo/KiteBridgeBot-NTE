@@ -783,7 +783,7 @@ async function runDailyActivity() {
 
 const screen = blessed.screen({
   smartCSR: true,
-  title: "KITEAI-BASE AUTO BRIDGE BOT",
+  title: "KITEAI BRIDGE AUTO BRIDGE BOT",
   autoPadding: true,
   fullUnicode: true,
   mouse: true,
@@ -1019,7 +1019,7 @@ function updateStatus() {
       : isScheduled && dailyActivityInterval !== null
       ? `${loadingSpinner[spinnerIndex]} ${chalk.yellowBright("Waiting for next cycle")}`
       : chalk.green("Idle");
-    const statusText = `Status: ${status} | Active Account: ${getShortAddress(walletInfo.address)} | Total Accounts: ${privateKeys.length} | Auto Bridge KITE: ${dailyActivityConfig.kiteBridgeRepetitions}x | Auto Bridge ETH: ${dailyActivityConfig.ethBridgeRepetitions}x | KITEAI-BASE AUTO BOT`;
+    const statusText = `Status: ${status} | Active Account: ${getShortAddress(walletInfo.address)} | Total Accounts: ${privateKeys.length} | Auto Bridge KITE: ${dailyActivityConfig.kiteBridgeRepetitions}x | Auto Bridge ETH: ${dailyActivityConfig.ethBridgeRepetitions}x | KITEAI BRIDGE AUTO BOT`;
     statusBox.setContent(statusText);
     if (isProcessing) {
       if (blinkCounter % 1 === 0) {
