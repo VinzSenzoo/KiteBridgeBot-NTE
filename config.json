@@ -1,0 +1,13 @@
+{
+  "kiteBridgeRepetitions": 3,
+  "minKiteBridge": 0.0001,
+  "maxKiteBridge": 0.0002,
+  "ethBridgeRepetitions": 3,
+  "minEthBridge": 0.0001,
+  "maxEthBridge": 0.0005,
+  "bridgeDelay": 30000,
+  "accountDelay": 10000,
+  "randomDelayMin": 10000,
+  "randomDelayMax": 30000,
+  "transactionTimeout": 60000
+}
